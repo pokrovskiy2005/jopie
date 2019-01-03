@@ -12,7 +12,7 @@ public class ftc extends JavaPlugin implements CommandExecutor
     }
     
     public boolean onCommand(final CommandSender sender, final Command command, final String label, final String[] args) {
-        if (command.getName().equalsIgnoreCase("funchat")) {
+        if (command.getName().equalsIgnoreCase("******")) {
             if (args.length < 2) {
                 if (sender instanceof Player) {
                     final Player p = (Player)sender;
